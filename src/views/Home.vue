@@ -1,5 +1,5 @@
 <template>
-    <h1>Hello VUE 3</h1>
+    <h1 class="w3-animate-left">HOME</h1>
 </template>
 
 <script>
@@ -20,7 +20,4 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-    color:red;
-}
 </style>
