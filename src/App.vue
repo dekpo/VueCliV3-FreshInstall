@@ -1,9 +1,10 @@
 <template>
   <nav>
     <ul>
-      <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/shop">Shop</router-link></li>
-      <li><router-link to="/contact">Contact</router-link></li>
+      <li><router-link :to="{name: 'Home'}">Home</router-link></li>
+      <li><router-link :to="{name: 'Shop'}">Shop</router-link></li>
+      <li><router-link :to="{name: 'Contact'}">Contact</router-link></li>
+      <li><router-link :to="{name: 'ProductDetails', params: {id:444}}">Product Details</router-link></li>
     </ul>
   </nav>
   <Header>
